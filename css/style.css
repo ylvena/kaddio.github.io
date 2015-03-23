@@ -36,11 +36,11 @@ input{
 	border: none;
 	color: #000 !important;
 	background-color: #FFF;
+	outline: none !important;
+	-webkit-appearance: none;
+	box-shadow: none !important;
 }
 
-input:focus{
-	outline-width: 0px;	
-}
 
 ::input-placeholder{
 	color: #FFF;
@@ -53,6 +53,14 @@ input:focus{
 ::-moz-input-placeholder{
 	color: #FFF;
 }
+
+:focus{
+	outline: 3px solid #ea0079 !important;
+}
+
+
+
+
 
 a{
 	color: inherit;
