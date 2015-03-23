@@ -30,7 +30,7 @@ body{
 	xbackground-color: rgb(141, 92, 153);
 }
 
-input{
+input, textarea{
 	font-size: 21px !important;
 	padding: 30px !important;
 	border: none;
