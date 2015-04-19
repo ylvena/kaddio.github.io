@@ -1,6 +1,6 @@
 *{
-  -webkit-animation: fadeInDown 0.6s ease-in-out;
-  animation: fadeInDown 0.6s ease-in-out;
+  x-webkit-animation: fadeInDown 0.6s ease-in-out;
+  xanimation: fadeInDown 0.6s ease-in-out;
 }
 
 @-webkit-keyframes fadeInDown {
