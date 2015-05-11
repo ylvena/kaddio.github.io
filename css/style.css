@@ -223,23 +223,6 @@ a:hover{
 
 
 
-.alert{
-	border-radius: 0 !important;
-	font-size: 21px;
-	background-color: #FFF;
-}
-
-
-#alert-box{
-	opacity: .8;
-	position: fixed;
-	top: 10%;
-	right: 0;
-}
-
-
-
-
 .tooltip-inner{
 	color: #F65832 !important;
 }
