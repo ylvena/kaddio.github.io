@@ -26,6 +26,7 @@
 
 .feature{
 	padding-top: 60px;
+	padding-bottom: 60px;
 	background-color: rgb(94, 119, 125);	
 }
 
@@ -84,7 +85,7 @@
 
 
 .top-section{
-	background-image: url('../vivant.jpg');
+	background-image: url('../40-tal.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #FFF;
@@ -136,6 +137,11 @@ body, form, label, input, button{
 	text-transform: uppercase;
 	border-radius: 30px;
 	border: none !important;
+}
+
+.btn-danger:nth-child(1){
+	margin-right: 10px;
+	background-color: #AAA;
 }
 
 h1{
