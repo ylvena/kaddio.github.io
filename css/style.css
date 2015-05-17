@@ -97,7 +97,11 @@
 }
 
 .top-section div p{
-	margin-top: 100px;
+	margin-top: 80px;
+}
+
+.top-section div p a{
+	margin-top: 40px;
 }
 
 
@@ -122,8 +126,8 @@
 }
 
 .contact-section{
-	color: #FFF;
-	background-color: rgb(123, 74, 88);
+	color: rgb(123, 74, 88);
+	background-color: rgb(240, 236, 235);
 }
 
 
@@ -162,6 +166,7 @@ h1{
 body{
 	background-color: rgb(240, 236, 235);
 	color: #222;
+	padding-top: 0;
 }
 
 input, textarea{
@@ -198,11 +203,10 @@ a{
 	color: inherit;
 	font-weight: 600;
 	transition: color 0.2s ease, border-width 0.2s ease;
-	xborder-bottom: 1px solid #ea0079;
 }
 
 a:hover{
-	color: #ea0079;
+	color: rgb(118, 148, 159);
 	text-decoration: none;
 }
 
@@ -217,16 +221,12 @@ a:hover{
 }
 
 
-.btn, .btn-success{
-	transition: color 0.2s ease, background-color 0.2s ease;
-}
-
-
 
 
 .jumbotron{
 	background-color: transparent;
 }
+
 
 .navbar-collapse{
 	border-top: 0px;
@@ -251,7 +251,7 @@ a:hover{
 }
 
 
-.navbar-default .navbar-toggle .icon-bar{
+.navbar-toggle .icon-bar{
 	transition: background-color 1s ease;
 	background-color: #ea0079 !important;
 }
@@ -264,32 +264,32 @@ a:hover{
 }
 
 .nav a{
-	font-weight: 400;
+	font-weight: 700;
 }
 
-.navbar-default .navbar-nav a{
+.navbar-nav a{
 	transition: color 0.2s ease, background-color 0.2s ease;
-	border-bottom: none !important;
+	border-bottom: 2px solid transparent !important;
 }
 
 
-.navbar-default .navbar-nav a:hover, .navbar-brand{
-	border-bottom: none !important;
+.navbar-nav a:hover, .navbar-brand{
+	background-color: transparent !important;
 }
 
-.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover{
+.navbar-nav .active a, .navbar-nav .active a:hover{
 	color: #222 !important;
 }
 
 
 @media screen and (max-width: 769px) {
 
-	.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover{
+	.navbar-nav .active a, .navbar-default .navbar-nav .active a:hover{
 		background-color: #FFF !important;
 		color: #222 !important;
 	}
 
-	.navbar-default .navbar-nav a:hover{
+	.navbar-nav a:hover{
 		background-color: transparent !important;
 		color: #222 !important;
 
