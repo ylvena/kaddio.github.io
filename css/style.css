@@ -93,13 +93,12 @@
 }
 
 .top-section div p{
-	margin-top: 40px;
+	margin-top: 100px;
 }
 
 
 .usp-section{
 	color: #FFF;
-	xbackground-color: rgb(144, 89, 105);
 	background-color: rgb(118, 148, 159);
 }
 
@@ -143,7 +142,8 @@ body, form, label, input, button{
 	text-transform: uppercase;
 	border-radius: 30px;
 	border: none !important;
-	background-color: rgb(144, 89, 105);
+	background-color: rgb(118, 148, 159);
+	xbackground-color: rgb(144, 89, 105);
 }
 
 .btn:nth-child(1){
