@@ -24,6 +24,26 @@
   }
 }
 
+.feature{
+	padding-top: 60px;
+	background-color: rgb(94, 119, 125);	
+}
+
+.feature-video{ background-color: rgb(83, 55, 70) }
+.feature-bookmark{ background-color: rgb(94, 119, 125) }
+.feature-task{ background-color: rgb(132, 169, 171) }
+.feature-notice{ background-color: rgb(95, 80, 107) }
+.feature-safe{ background-color: rgb(106, 107, 131) }
+.feature-journal{ background-color: rgb(151, 153, 178) }
+
+
+
+.feature i{
+}
+
+.feature h3{
+}
+
 
 .tile{
 	background-color: #FFF;
@@ -44,6 +64,7 @@
 }
 
 .tile p.price-text{
+	padding: 15px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -52,9 +73,15 @@
 
 .section{
 	min-height: 400px;
-	padding-left: 120px;
-	padding-right: 120px;
 }
+
+@media screen and (min-width: 800px) {
+	.section{
+		padding-left: 140px;
+		padding-right: 140px;
+	}
+}
+
 
 .top-section{
 	background-image: url('../vivant.jpg');
