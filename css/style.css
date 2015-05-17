@@ -30,12 +30,12 @@
 	background-color: rgb(94, 119, 125);	
 }
 
-.feature-video{ background-color: rgb(83, 55, 70) }
-.feature-bookmark{ background-color: rgb(94, 119, 125) }
-.feature-task{ background-color: rgb(132, 169, 171) }
-.feature-notice{ background-color: rgb(95, 80, 107) }
-.feature-safe{ background-color: rgb(106, 107, 131) }
-.feature-journal{ background-color: rgb(151, 153, 178) }
+.feature-video{ background-color: rgb(123, 74, 88) }
+.feature-bookmark{ background-color: rgb(144, 89, 105) }
+.feature-task{ background-color: rgb(165, 113, 126) }
+.feature-notice{ background-color: rgb(72, 55, 50) }
+.feature-safe{ background-color: rgb(88, 69, 63) }
+.feature-journal{ background-color: rgb(125, 101, 94) }
 
 
 
@@ -54,14 +54,14 @@
 	color: #FFF;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	background-color: rgb(94, 119, 125);
+	background-color: rgb(88, 69, 63);
 	margin-bottom: 0;
 }
 
 .tile p.price{
 	color: #FFF;
 	margin-bottom: 0;
-	background-color: rgb(134, 187, 190);
+	background-color: rgb(125, 101, 94);
 }
 
 .tile p.price-text{
@@ -85,36 +85,41 @@
 
 
 .top-section{
-	background-image: url('../40-tal.png');
+	background-image: url('../man.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #FFF;
 	background-color: rgb(118, 148, 159);
 }
 
+.top-section div p{
+	margin-top: 40px;
+}
+
+
 .usp-section{
 	color: #FFF;
-	background-color: rgb(105, 107, 131);
+	background-color: rgb(144, 89, 105);
 }
 
 .features-section{
 	color: #FFF;
-	background-color: rgb(178, 197, 199);
+	background-color: rgb(207, 194, 195);
 }
 
 .price-section{
 	color: #222;
-	background-color: rgb(235, 235, 235);
+	background-color: rgb(205, 193, 191);
 }
 
 .developer-section{
 	color: #FFF;
-	background-color: rgb(118, 148, 159);
+	background-color: rgb(165, 113, 126);
 }
 
 .contact-section{
 	color: #FFF;
-	background-color: rgb(95, 80, 107);
+	background-color: rgb(123, 74, 88);
 }
 
 
@@ -133,15 +138,15 @@ body, form, label, input, button{
 	border: 0 !important;
 }
 
-.btn-danger{
+.btn{
 	text-transform: uppercase;
 	border-radius: 30px;
 	border: none !important;
+	background-color: rgb(144, 89, 105);
 }
 
-.btn-danger:nth-child(1){
+.btn:nth-child(1){
 	margin-right: 10px;
-	background-color: #AAA;
 }
 
 h1{
@@ -150,6 +155,7 @@ h1{
 
 
 body{
+	background-color: rgb(240, 236, 235);
 	color: #222;
 }
 
@@ -309,7 +315,7 @@ footer, .footer{
 	margin: 0;
 	border: 0;
 	color: #FFF;
-	background-color: rgb(83, 55, 70);
+	background-color: rgb(70, 57, 53);
 }
 
 
