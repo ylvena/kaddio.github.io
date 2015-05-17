@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
 		
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,700">
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/bootstrap/justified-nav.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -38,7 +38,7 @@
 
       <ul class="nav navbar-nav navbar-right">
       	<li>
-      		<a href="http://app.epsy.io">Login</a>
+      		<a href="http://app.epsy.io">Logga in</a>
       	</li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -49,51 +49,26 @@
 
 
 
-	<div class="container">
+	<div class="container-fluid section top-section">
 
 		<div id="epsy" class="jumbotron">
-			<h2>ePsy</h2>
-			<p>[ee-zee]</p>
+			<h2>Videochat med dina klienter. Videochat med din psykolog. Kom igång på fem minuter!</h2>
 
-			<p>Available soon as a beta version.</p>
+			<p>
+				<a href="http://app.epsy.io/login.html" class="btn btn-danger">Logga in</a>
 
-		</div>
-
-
-		<div id="get-started" class="jumbotron">
-			<h2>Get started</h2>
-
-			<p><a href="http://app.epsy.io">Login</a> or <a href="">Signup</a></p>
+				<a href="http://app.epsy.io/login.html#/signup" class="btn btn-danger">Kom igång</a>
+			</p>
 
 		</div>
+	</div>
 
 
-
-		<div id="price" class="jumbotron">
-			<h2>Price</h2>
-
-			<div class="row">
-				<div class="col-sm-4">
-					<h3>Free $0</h3>
-					<p>Free as in freedom</p>
-				</div>
-
-				<div class="col-sm-4">
-					<h3 style="color: silver">Silver $15</h3>
-					<p>For startups, freelance</p>
-				</div>
-
-				<div class="col-sm-4">
-					<h3 style="color: gold">Gold $50</h3>
-					<p>All inclusive</p>
-				</div>
-			</div>
-		</div>
-
+	<div class="container-fluid section features-section">
 
 
 		<div id="features" class="jumbotron">
-			<h2 style="color: #ea0079">Features</h2>
+			<h2>Skräddarsydda funktioner</h2>
 
 			<div class="row">
 				<div class="col-sm-4">
@@ -132,9 +107,64 @@
 
 
 		</div>
+	</div>
 
 
 
+	<div class="container-fluid section usp-section">
+		<div class="jumbotron">
+			<h2>USP</h2>
+
+			<img class="img-responsive" src="mb.png" />
+		</div>
+	</div>
+
+
+
+
+
+
+	<div class="container-fluid section price-section">
+
+		<div id="price" class="jumbotron">
+			<h2>Pris</h2>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="jumbtron tile">
+						<h3>Free</h3>
+						<p class="price">$0</p>
+						<p class="price-text">Free as in freedom</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="jumbtron tile">
+						<h3>Silver</h3>
+						<p class="price">$15</p>
+						<p class="price-text">For startups, freelance</p>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="jumbtron tile">
+						<h3>Gold</h3>
+						<p class="price">$50</p>
+						<p class="price-text">All inclusive</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<div class="container-fluid section developer-section">
 
 		<!-- Jumbotron -->
 		<div id="developer" class="jumbotron">
@@ -148,6 +178,9 @@
 
 		</div>
 
+	</div>
+
+	<div class="container-fluid section contact-section">
 
 
 		<!-- Jumbotron -->
@@ -159,7 +192,7 @@
 			</div>
 
 		</div>
-
+	</div>
 
 
 
@@ -167,7 +200,8 @@
 
 
 	  <!-- Site footer -->
-	  <footer class="footer">
+  <footer class="footer">
+  	<div class="container">
 		<p class="pull-right">
 
 			<a href="" target="_blank" class="has-tooltip" data-toggle="tooltip" data-placement="top" title="Talk to us">Twitter</a>
@@ -177,9 +211,8 @@
 		</p>
 
 		<p>&copy; ePsy 2015.</p>
-	  </footer>
-
-	</div> <!-- /container -->
+	</div>
+  </footer>
 
   </body>
 
