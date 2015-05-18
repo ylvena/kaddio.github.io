@@ -24,6 +24,12 @@
   }
 }
 
+hr{
+	margin-top: 20px !important;
+	width: 30%;
+	margin: auto;
+}
+
 .feature-col{
 	padding: 5px;
 }
@@ -324,18 +330,4 @@ footer, .footer{
 	border: 0;
 	color: #FFF;
 	background-color: rgb(70, 57, 53);
-}
-
-
-
-.tooltip-inner{
-	color: #F65832 !important;
-}
-
-.tooltip-arrow, .tooltip-inner{
-	border-top-color: #FFF !important;
-}
-
-.tooltip-inner{
-	background-color: #FFF !important;
 }
