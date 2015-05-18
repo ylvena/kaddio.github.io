@@ -118,6 +118,11 @@ html{
 }
 
 body, form, label, input, button{
+	padding-top: 0;
+
+	background-color: rgb(240, 236, 235);
+	color: #222;
+
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 	font-weight: 300;
 	font-style: normal;
@@ -145,12 +150,6 @@ h1{
 }
 
 
-body{
-	background-color: rgb(240, 236, 235);
-	color: #222;
-	padding-top: 0;
-}
-
 input, textarea{
 	font-size: 21px !important;
 	padding: 30px !important;
@@ -176,7 +175,7 @@ input, textarea{
 }
 
 :focus{
-	outline: 3px solid #ea0079 !important;
+	outline: 2px solid rgb(205, 193, 191) !important;
 }
 
 
