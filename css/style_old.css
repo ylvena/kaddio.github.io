@@ -1,0 +1,236 @@
+*{
+  x-webkit-animation: fadeInDown 0.6s ease-in-out;
+  xanimation: fadeInDown 0.6s ease-in-out;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -5%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -5%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+
+html{
+	overflow-y: scroll;
+}
+
+body, form, label, input, button{
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	font-weight: 300;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+
+	border-radius: 0 !important;
+	border: 0 !important;
+}
+
+h1{
+	margin-top: 0;
+}
+
+h1 a, #epsy h2{
+	color: #ea0079 !important;	
+}
+
+h2{
+	font-weight: 300;
+}
+
+
+body{
+	padding-top: 70px;
+	color: #222;
+	xbackground-color: rgb(141, 92, 153);
+}
+
+input, textarea{
+	font-size: 21px !important;
+	padding: 30px !important;
+	border: none;
+	color: #000 !important;
+	background-color: #FFF;
+	outline: none !important;
+	-webkit-appearance: none;
+	box-shadow: none !important;
+}
+
+
+::input-placeholder{
+	color: #FFF;
+}
+
+::-webkit-input-placeholder{
+	color: #FFF;
+}
+
+::-moz-input-placeholder{
+	color: #FFF;
+}
+
+:focus{
+	outline: 3px solid #ea0079 !important;
+}
+
+
+
+
+
+a{
+	color: inherit;
+	transition: color 0.2s ease, border-width 0.2s ease;
+	border-bottom: 1px solid #ea0079;
+}
+
+a:hover{
+	color: #ea0079;
+	text-decoration: none;
+}
+
+::-moz-selection {
+	background: #ea0079;
+	color: #fff;
+}
+
+::selection {
+	background: #ea0079;
+	color: #fff;
+}
+
+
+.btn{
+	border: 0 !important;
+}
+
+.btn, .btn-success{
+	transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.btn:hover{
+}
+
+
+
+
+.jumbotron{
+	background-color: transparent;
+}
+
+.navbar-collapse{
+	border-top: 0px;
+}
+
+
+.navbar-brand{
+}
+
+.navbar-default .navbar-toggle{
+	color: #FFF;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover{ 
+	background-color: transparent !important;
+}
+
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background-color: none !important;	
+}
+
+
+.navbar-default .navbar-toggle .icon-bar{
+	transition: background-color 1s ease;
+	background-color: #ea0079 !important;
+}
+
+
+
+.navbar{
+	transition: color 1s ease, background-color 1s ease;
+	background-color: #FFF !important;
+	border-bottom: none !important;
+}
+
+.nav a{
+	font-weight: 400;
+}
+
+.navbar-default .navbar-nav a{
+	transition: color 0.2s ease, background-color 0.2s ease;
+	border-bottom: none !important;
+}
+
+
+.navbar-default .navbar-nav a:hover, .navbar-brand{
+	border-bottom: none !important;
+}
+
+.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover{
+	background-color: #ea0079 !important;
+	color: #FFF !important;
+}
+
+
+@media screen and (max-width: 769px) {
+
+	.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover{
+		background-color: #FFF !important;
+		color: #222 !important;
+	}
+
+	.navbar-default .navbar-nav a:hover{
+		background-color: transparent !important;
+		color: #222 !important;
+
+	}
+}
+
+.navbar .navbar-nav{
+	text-align: center;
+}
+
+
+
+#navigation.nav-active{
+	height: 100vh;
+}
+
+
+
+
+ 
+@media screen and (min-width: 769px) {
+	h2 {
+		font-size: 3em;
+	}
+}
+
+
+
+.tooltip-inner{
+	color: #F65832 !important;
+}
+
+.tooltip-arrow, .tooltip-inner{
+	border-top-color: #FFF !important;
+}
+
+.tooltip-inner{
+	background-color: #FFF !important;
+}
