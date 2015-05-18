@@ -158,7 +158,6 @@ body, form, label, input, button{
 	border-radius: 30px;
 	border: none !important;
 	background-color: rgb(118, 148, 159);
-	xbackground-color: rgb(144, 89, 105);
 }
 
 .get-started-btns .btn:nth-child(1){
@@ -220,12 +219,12 @@ a:hover{
 }
 
 ::-moz-selection {
-	background: #ea0079;
+	background-color: rgb(118, 148, 159);
 	color: #fff;
 }
 
 ::selection {
-	background: #ea0079;
+	background-color: rgb(118, 148, 159);
 	color: #fff;
 }
 
@@ -237,83 +236,7 @@ a:hover{
 }
 
 
-.navbar-collapse{
-	border-top: 0px;
-}
 
-
-.navbar-brand{
-}
-
-.navbar-default .navbar-toggle{
-	color: #FFF;
-}
-
-.navbar-default .navbar-toggle:focus, 
-.navbar-default .navbar-toggle:hover{ 
-	background-color: transparent !important;
-}
-
-
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-	background-color: none !important;	
-}
-
-
-.navbar-toggle .icon-bar{
-	transition: background-color 1s ease;
-	background-color: #FFF !important;
-}
-
-
-
-.navbar{
-	transition: color 1s ease, background-color 1s ease;
-	border-bottom: none !important;
-}
-
-.nav a{
-	font-weight: 700;
-}
-
-.navbar-nav a{
-	transition: color 0.2s ease, background-color 0.2s ease;
-	border-bottom: 2px solid transparent !important;
-}
-
-
-.navbar-nav a:hover, .navbar-brand{
-	background-color: transparent !important;
-}
-
-.navbar-nav .active a, .navbar-nav .active a:hover{
-	color: #222 !important;
-}
-
-
-@media screen and (max-width: 769px) {
-
-	.navbar-nav .active a, .navbar-default .navbar-nav .active a:hover{
-		background-color: #FFF !important;
-		color: #222 !important;
-	}
-
-	.navbar-nav a:hover{
-		background-color: transparent !important;
-		color: #222 !important;
-
-	}
-}
-
-.navbar .navbar-nav{
-	text-align: center;
-}
-
-
-
-#navigation.nav-active{
-	height: 100vh;
-}
 
 
 
