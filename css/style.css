@@ -31,9 +31,14 @@ hr{
 
 
 .tile{
-	height: 240px;
+	height: 300px;
 	background-color: #FFF;
 }
+
+.tile-to-be-announced{
+	opacity: 0.4;
+}
+
 
 .tile h3{
 	color: #FFF;
