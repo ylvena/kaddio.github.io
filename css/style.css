@@ -14,6 +14,10 @@ hr{
 }
 
 
+.recirc--inline{
+	-webkit-overflow-scrolling: touch;
+}
+
 .recirc__container{
 	overflow-x: scroll;
 	white-space: nowrap;
