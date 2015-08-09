@@ -21,6 +21,7 @@ hr{
 .feature-container{
 	overflow-x: scroll;
 	white-space: nowrap;
+	padding: 0 100px 0 0;
 }
 
 .feature-container::-webkit-scrollbar{
@@ -31,8 +32,8 @@ hr{
 .feature{
 	text-align: center;
 	color: #666;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding: 30px;
+	margin-bottom: 100px; /* Some space to scroll below */
 }
 
 .feature h3{
@@ -41,13 +42,13 @@ hr{
 
 .feature p{
 	margin-top: 20px;
+	white-space: pre-wrap;
 }
 
 .section-scroll .feature{
-	width: 90%;
-	max-width: 400px;
+	width: 400px;
 	display: inline-block;
-	position: relative;
+	background-color: #fff;
 }
 
 .feature-video i{ color: rgb(118, 148, 159);
