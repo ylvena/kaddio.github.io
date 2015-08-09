@@ -30,10 +30,17 @@ hr{
 
 .feature{
 	text-align: center;
-	color: #FFF;
+	color: #666;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background-color: rgb(94, 119, 125);	
+}
+
+.feature h3{
+	font-weight: 700;
+}
+
+.feature p{
+	margin-top: 20px;
 }
 
 .section-scroll .feature{
@@ -43,21 +50,14 @@ hr{
 	position: relative;
 }
 
+.feature-video i{ color: rgb(118, 148, 159);
+ }
+.feature-bookmark i{ color: rgb(144, 89, 105) }
+.feature-task i{ color: rgb(165, 113, 126) }
+.feature-notice i{ color: rgb(165, 113, 126) }
+.feature-safe i{ color: rgb(88, 69, 63) }
+.feature-journal i{ color: rgb(125, 101, 94) }
 
-.feature-video{ background-color: rgb(123, 74, 88) }
-.feature-bookmark{ background-color: rgb(144, 89, 105) }
-.feature-task{ background-color: rgb(165, 113, 126) }
-.feature-notice{ background-color: rgb(72, 55, 50) }
-.feature-safe{ background-color: rgb(88, 69, 63) }
-.feature-journal{ background-color: rgb(125, 101, 94) }
-
-
-
-.feature i{
-}
-
-.feature h3{
-}
 
 
 .tile{
