@@ -14,32 +14,35 @@ hr{
 }
 
 
-.recirc--inline{
+.section-scroll{
 	-webkit-overflow-scrolling: touch;
 }
 
-.recirc__container{
+.feature-container{
 	overflow-x: scroll;
 	white-space: nowrap;
 }
 
+.feature-container::-webkit-scrollbar{
+	display: none;
+}
+
+
 .feature{
-	width: 90%;
-	max-width: 400px;
-	background-repeat: no-repeat;
-	background-size: contain;
-	display: inline-block;
-	text-decoration: none;
-	position: relative;
-	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
-
-
 	text-align: center;
 	color: #FFF;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	background-color: rgb(94, 119, 125);	
 }
+
+.section-scroll .feature{
+	width: 90%;
+	max-width: 400px;
+	display: inline-block;
+	position: relative;
+}
+
 
 .feature-video{ background-color: rgb(123, 74, 88) }
 .feature-bookmark{ background-color: rgb(144, 89, 105) }
@@ -124,8 +127,8 @@ hr{
 }
 
 .features-section{
-	color: #FFF;
-	background-color: rgb(207, 194, 195);
+	color: #222;
+	padding-bottom: 60px;
 }
 
 .price-section{
