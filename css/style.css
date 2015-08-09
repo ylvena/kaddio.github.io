@@ -34,6 +34,8 @@ hr{
 	color: #666;
 	padding: 30px;
 	margin-bottom: 100px; /* Some space to scroll below */
+	margin-right: 10px;
+	vertical-align: middle;
 }
 
 .feature h3{
@@ -41,7 +43,7 @@ hr{
 }
 
 .feature p{
-	margin-top: 20px;
+	margin-top: 10px;
 	white-space: pre-wrap;
 }
 
