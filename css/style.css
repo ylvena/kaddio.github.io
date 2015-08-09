@@ -35,10 +35,8 @@ hr{
 
 
 .feature{
-	text-align: center;
-	color: #666;
+	text-align: left;
 	padding: 30px;
-	margin-bottom: 100px; /* Some space to scroll below */
 	margin-right: 10px;
 	vertical-align: middle;
 }
@@ -48,6 +46,7 @@ hr{
 }
 
 .feature p{
+	opacity: 0.8;
 	margin-top: 10px;
 	white-space: pre-wrap;
 }
@@ -55,11 +54,11 @@ hr{
 .section-scroll .feature{
 	width: 300px;
 	display: inline-block;
-	background-color: #fff;
+	background-color: rgb(240, 236, 235);
+	margin-bottom: 100px; /* Some space to scroll below */
 }
 
-.feature-video i{ color: rgb(118, 148, 159);
- }
+.feature-video i{ color: rgb(118, 148, 159); }
 .feature-bookmark i{ color: rgb(144, 89, 105) }
 .feature-task i{ color: rgb(165, 113, 126) }
 .feature-notice i{ color: rgb(165, 113, 126) }
@@ -100,9 +99,6 @@ hr{
 
 
 
-.section{
-}
-
 @media screen and (min-width: 800px) {
 	.section{
 		padding-left: 140px;
@@ -135,7 +131,7 @@ hr{
 }
 
 .features-section{
-	color: #222;
+	color: #4A4A4A;
 	padding-bottom: 60px;
 }
 
@@ -147,6 +143,7 @@ hr{
 .developer-section{
 	color: #FFF;
 	background-color: rgb(165, 113, 126);
+	xbackground-color: #416792;
 }
 
 .contact-section{
@@ -161,9 +158,10 @@ html{
 }
 
 body, form, label, input, button{
+	text-rendering: optimizelegibility;
 	padding-top: 0;
 
-	background-color: rgb(240, 236, 235);
+	background-color: #FFF;
 	color: #222;
 
 	font-family: 'Lato', 'Helvetica Neue', Helvetica !important;
@@ -176,7 +174,7 @@ body, form, label, input, button{
 
 .get-started-btns .btn{
 	text-transform: uppercase;
-	border-radius: 30px;
+	border-radius: 4px;
 	border: none !important;
 	background-color: rgb(118, 148, 159);
 }
@@ -253,10 +251,21 @@ a:hover{
 
 
 
-
+p{
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 h2{
 	margin-bottom: 40px;
+}
+
+h3{
+	opacity: 0.8;
+	max-width: 570px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
  
