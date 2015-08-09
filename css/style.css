@@ -18,10 +18,15 @@ hr{
 	-webkit-overflow-scrolling: touch;
 }
 
+.section-scroll h2, .section-scroll > .jumbotron{
+	margin-bottom: 0;
+}
+
 .feature-container{
 	overflow-x: scroll;
 	white-space: nowrap;
 	padding: 0 100px 0 0;
+	margin-top: 0;
 }
 
 .feature-container::-webkit-scrollbar{
