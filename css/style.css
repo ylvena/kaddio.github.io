@@ -157,6 +157,13 @@ html{
 	overflow-y: scroll;
 }
 
+/* Chrome FFS */
+a, button, a:focus, button:focus{
+	outline: 0 !important;
+	text-decoration: none !important;
+}
+
+
 body, form, label, input, button{
 	text-rendering: optimizelegibility;
 	padding-top: 0;
