@@ -181,7 +181,7 @@ body, form, label, input, button{
 
 .get-started-btns .btn{
 	text-transform: uppercase;
-	border-radius: 4px;
+	border-radius: 4px !important;
 	border: none !important;
 	background-color: rgb(118, 148, 159);
 }
