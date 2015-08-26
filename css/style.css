@@ -189,6 +189,12 @@ body, form, label, input, button{
 	font-size: 21px;
 }
 
+.get-started-btns .btn:hover{
+	color: #FFF;
+	background-color: rgb(68, 98, 109);
+}
+
+
 .get-started-btns .btn{
 	margin: 10px 0;
 }

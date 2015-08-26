@@ -38,8 +38,11 @@
 	font-weight: 700;
 }
 
+a{
+	transition: color 0.2s ease, background-color 0.2s ease;	
+}
+
 .navbar-nav a{
-	transition: color 0.2s ease, background-color 0.2s ease;
 	border-radius: 4px;
 	margin: 15px 5px !important;
 	padding: 5px 15px !important;
