@@ -184,10 +184,17 @@ body, form, label, input, button{
 	border-radius: 4px !important;
 	border: none !important;
 	background-color: rgb(118, 148, 159);
+
+	padding: 14px 24px;
+	font-size: 21px;
 }
 
-.get-started-btns .btn:nth-child(1){
-	margin-right: 10px;
+.get-started-btns .btn{
+	margin: 10px 0;
+}
+
+.get-started-btns .btn:nth-child(2){
+	margin-left: 10px;
 }
 
 
