@@ -1,0 +1,21 @@
+{
+  "name": "epsy-www",
+  "version": "1.0.0",
+  "devDependencies": {
+    "browser-sync": "*",
+    "grunt": "*",
+    "grunt-browser-sync": "*",
+    "grunt-cli": "*",
+    "grunt-concurrent": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-shell": "*"
+  },
+  "scripts": {
+    "start": "grunt"
+  },
+  "description": "www.epsy.io website",
+  "author": "Team ePsy",
+  "license": "ISC",
+  "homepage": "http://www.epsy.io"
+}

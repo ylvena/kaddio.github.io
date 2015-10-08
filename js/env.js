@@ -3,11 +3,13 @@ function env(app){
 
 	var res = window.location.hostname.match(/epsy.io/gi);
 
+	var url = {};
+
 	// Set URL for Loopback API
-	if(res == null){
+	if(res === null){
 		console.info('Local Environment');
 
-		var url = {
+		url = {
 			api: 'http://' + window.location.hostname + ':5000/api',
 			app: 'http://' + window.location.hostname + ':3002',
 			logout: 'http://' + window.location.host + '/login.html',
@@ -20,7 +22,7 @@ function env(app){
 	else{
 		console.info('Production Environment');
 
-		var url = {
+		url = {
 			api: 'http://api.epsy.io/api',
 			apP: 'http://app.epsy.io',
 			logout: 'http://www.epsy.io',
