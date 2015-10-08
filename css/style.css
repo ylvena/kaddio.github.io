@@ -151,20 +151,71 @@ hr{
 	background-color: rgb(240, 236, 235);
 }
 
+.newsletter-section{
+	color: #FFF;
+	background-color: #e25440;
+}
+
+.newsletter-section .jumbotron,
+.newsletter-section p
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+}
+
+.newsletter-section button{
+	background-color: black;
+	color: white;
+}
 
 
 html{
 	overflow-y: scroll;
 }
 
-/* Chrome FFS */
 a, button, a:focus, button:focus{
 	outline: 0 !important;
 	text-decoration: none !important;
+	border: none !important;
+}
+
+.btn-primary{
+	color: #FFF;
+	background-color: rgb(118, 148, 159);
+}
+
+.btn-primary:hover{
+	color: #FFF;
+	background-color: rgb(108, 138, 169);
+}
+
+h3.punch{
+	line-height: 1.3em;
+}
+
+.cta{
+	margin-top: 2em;
+	letter-spacing: 0.1em;
+}
+
+.cta .btn{
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.cta .btn{
+	margin: 10px auto;
+}
+
+.cta .or{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 16px;
 }
 
 
-body, form, label, input, button{
+body, form, label, input{
 	text-rendering: optimizelegibility;
 	padding-top: 0;
 
@@ -174,32 +225,7 @@ body, form, label, input, button{
 	font-style: normal;
 	-webkit-font-smoothing: antialiased;
 
-	border-radius: 0 !important;
 	border: 0 !important;
-}
-
-.get-started-btns .btn{
-	text-transform: uppercase;
-	border-radius: 4px !important;
-	border: none !important;
-	background-color: rgb(118, 148, 159);
-
-	padding: 14px 24px;
-	font-size: 21px;
-}
-
-.get-started-btns .btn:hover{
-	color: #FFF;
-	background-color: rgb(68, 98, 109);
-}
-
-
-.get-started-btns .btn{
-	margin: 10px 0;
-}
-
-.get-started-btns .btn:nth-child(2){
-	margin-left: 10px;
 }
 
 
@@ -212,7 +238,6 @@ h1{
 input, textarea{
 	font-size: 21px !important;
 	padding: 30px !important;
-	border: none;
 	color: #000 !important;
 	background-color: #FFF;
 	outline: none !important;
@@ -281,7 +306,6 @@ h2{
 }
 
 h3{
-	opacity: 0.8;
 	max-width: 570px;
 	margin-left: auto;
 	margin-right: auto;
@@ -299,4 +323,8 @@ footer, .footer{
 	border: 0;
 	color: #FFF;
 	background-color: rgb(70, 57, 53);
+}
+
+.footer a{
+	margin-left: 10px;
 }
