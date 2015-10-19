@@ -159,24 +159,6 @@ hr{
 	background-color: rgb(240, 236, 235);
 }
 
-.newsletter-section{
-	color: #FFF;
-	background-color: #e25440;
-}
-
-.newsletter-section .jumbotron,
-.newsletter-section p
-{
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-bottom: 0;
-}
-
-.newsletter-section button{
-	background-color: black;
-	color: white;
-}
-
 
 html{
 	overflow-y: scroll;
