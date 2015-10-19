@@ -280,17 +280,6 @@ a:hover{
 	text-decoration: none;
 }
 
-::-moz-selection {
-	background-color: rgb(118, 148, 159);
-	color: #fff;
-}
-
-::selection {
-	background-color: rgb(118, 148, 159);
-	color: #fff;
-}
-
-
 
 
 .jumbotron{
