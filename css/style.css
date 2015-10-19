@@ -2,6 +2,11 @@
 	height: auto;
 }
 
+:-ms-input-placeholder{
+	color: #AAA !important;
+}
+
+
 
 hr{
 	margin-top: 20px !important;
@@ -256,19 +261,6 @@ input, textarea{
 	outline: none !important;
 	-webkit-appearance: none;
 	box-shadow: none !important;
-}
-
-
-::input-placeholder{
-	color: #FFF;
-}
-
-::-webkit-input-placeholder{
-	color: #FFF;
-}
-
-::-moz-input-placeholder{
-	color: #FFF;
 }
 
 :focus{
