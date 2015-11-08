@@ -10,10 +10,10 @@ function env(app){
 		console.info('Local Environment');
 
 		url = {
-			api: 'http://' + window.location.hostname + ':5000/api',
-			app: 'http://' + window.location.hostname + ':3002',
-			logout: 'http://' + window.location.host + '/login.html',
-			socket: 'http://' + window.location.hostname + ':5000'
+			api: '//' + window.location.hostname + ':5000/api',
+			app: '//' + window.location.hostname + ':3002',
+			logout: '//' + window.location.host + '/login.html',
+			socket: '//' + window.location.hostname + ':5000'
 		};
 
 		app.constant('env', 'local');
@@ -23,10 +23,10 @@ function env(app){
 		console.info('Production Environment');
 
 		url = {
-			api: 'http://api.epsy.io/api',
-			apP: 'http://app.epsy.io',
+			api: '//epsy-api.herokuapp.com/api',
+			apP: '//app.epsy.io',
 			logout: 'http://www.epsy.io',
-			socket: 'http://api.epsy.io'
+			socket: '//epsy-api.herokuapp.com'
 		};
 
 		app.constant('env', 'production');
