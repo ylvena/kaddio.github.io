@@ -12,6 +12,9 @@
 	color: #FFF;
 }
 
+.navbar-toggle{
+	margin-top: 24px !important;	
+}
 .navbar-default .navbar-toggle:focus, 
 .navbar-default .navbar-toggle:hover{ 
 	background-color: transparent !important;
