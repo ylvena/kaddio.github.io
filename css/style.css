@@ -42,6 +42,11 @@ hr{
 }
 
 
+.feature .badge{
+    font-size: inherit;
+    font-weight: inherit;
+}
+
 .feature{
 	text-align: left;
 	padding: 30px;
