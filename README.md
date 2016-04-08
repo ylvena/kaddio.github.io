@@ -1,2 +1,2 @@
-# epsy-app.github.io
-www for ePsy
+# kaddio.github.io
+www for Kaddio

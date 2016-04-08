@@ -1,5 +1,5 @@
 {
-  "name": "epsy-www",
+  "name": "kaddio-www",
   "version": "1.0.0",
   "devDependencies": {
     "browser-sync": "*",
@@ -14,8 +14,8 @@
   "scripts": {
     "start": "grunt"
   },
-  "description": "www.epsy.io website",
-  "author": "Team ePsy",
+  "description": "Kaddio website",
+  "author": "Team Kaddio",
   "license": "ISC",
-  "homepage": "http://www.epsy.io"
+  "homepage": "http://www.kaddio.com"
 }
