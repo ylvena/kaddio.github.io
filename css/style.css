@@ -1,3 +1,27 @@
+
+@font-face {
+    font-family: benton-sans;
+    font-style: normal;
+    font-weight: 200;
+    src: url(//www.herokucdn.com/fonts/bentonsans-book.eot?#iefix) format("embedded-opentype"), url(//www.herokucdn.com/fonts/bentonsans-book.woff) format("woff"), url(//www.herokucdn.com/fonts/bentonsans-book.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: benton-sans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(//www.herokucdn.com/fonts/bentonsans-regular.eot?#iefix) format("embedded-opentype"), url(//www.herokucdn.com/fonts/bentonsans-regular.woff) format("woff"), url(//www.herokucdn.com/fonts/bentonsans-regular.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: benton-sans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(//www.herokucdn.com/fonts/bentonsans-medium.eot?#iefix) format("embedded-opentype"), url(//www.herokucdn.com/fonts/bentonsans-medium.woff) format("woff"), url(//www.herokucdn.com/fonts/bentonsans-medium.ttf) format("truetype")
+}
+
+
+
 .form-control{
 	height: auto;
 }
@@ -222,7 +246,7 @@ body{
 
 	color: #222;
 
-	font-family: 'Open Sans', 'Helvetica Neue', Helvetica !important;
+	font-family: benton-sans, 'Open Sans', 'Helvetica Neue', Helvetica !important;
 	font-style: normal;
 	-webkit-font-smoothing: antialiased;
 
@@ -236,7 +260,7 @@ h1{
 }
 
 h1, h2, h3, h4, h5{
-	font-family: 'Courgette', 'Helvetica Neue', Helvetica !important;	
+	font-family: 'Courgette', benton-sans, 'Helvetica Neue', Helvetica !important;	
 }
 
 
