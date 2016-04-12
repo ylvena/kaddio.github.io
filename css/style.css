@@ -42,9 +42,6 @@ hr{
 	padding: 5px;
 }
 
-.feature-col h2{
-}
-
 
 .section-scroll{
 	-webkit-overflow-scrolling: touch;
@@ -76,6 +73,7 @@ hr{
 	padding: 30px;
 	margin-right: 10px;
 	vertical-align: middle;
+    min-height: 340px;
 }
 
 .feature h3{
