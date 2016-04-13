@@ -178,8 +178,14 @@ hr{
 .developer-section{
 	color: #FFF;
 	background-color: rgb(165, 113, 126);
-	xbackground-color: #416792;
 }
+
+.developer-section .btn-primary{
+	color: rgb(165, 113, 126);
+	background-color: white;
+}
+
+
 
 .contact-section{
 	color: rgb(123, 74, 88);
