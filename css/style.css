@@ -175,6 +175,22 @@ hr{
 	background-color: rgb(205, 193, 191);
 }
 
+.psy-section{
+	color: #FFF;
+	background-color: rgb(135, 83, 96);
+}
+
+.fys-section{
+	color: #FFF;
+	background-color: rgb(165, 113, 126);
+}
+
+.man-section{
+	color: #FFF;
+	background-color: rgb(195, 143, 156);
+}
+
+
 .developer-section{
 	color: #FFF;
 	background-color: rgb(165, 113, 126);
