@@ -180,16 +180,16 @@ hr{
 	background-color: rgb(165, 113, 126);
 }
 
-.developer-section .btn-primary{
-	color: rgb(165, 113, 126);
-	background-color: white;
-}
 
-.developer-section .btn-primary:hover{
+.developer-section .btn-primary{
 	background-color: rgb(195, 143, 156);
 	color: white;
 }
 
+.developer-section .btn-primary:hover{
+	color: rgb(165, 113, 126);
+	background-color: white;
+}
 
 
 .contact-section{
