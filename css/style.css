@@ -64,8 +64,11 @@ hr{
 
 
 .feature .badge{
-    font-size: inherit;
-    font-weight: inherit;
+    vertical-align: middle;
+    font-weight: 400;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .feature{
@@ -81,7 +84,6 @@ hr{
 }
 
 .feature p{
-	opacity: 0.8;
 	margin-top: 10px;
 	white-space: pre-wrap;
 }
@@ -101,39 +103,6 @@ hr{
 .feature-journal i{ color: rgb(125, 101, 94) }
 
 
-
-.tile{
-	height: 300px;
-	background-color: #FFF;
-}
-
-.tile-to-be-announced{
-	opacity: 0.4;
-}
-
-
-.tile h3{
-	color: #FFF;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	background-color: rgb(88, 69, 63);
-	margin-bottom: 0;
-}
-
-.tile p.price{
-	color: #FFF;
-	margin-bottom: 0;
-	background-color: rgb(125, 101, 94);
-}
-
-.tile p.price-text{
-	padding: 15px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-
-
 @media screen and (min-width: 800px) {
 	.section{
 		padding-left: 140px;
@@ -141,6 +110,12 @@ hr{
 	}
 }
 
+.btn{
+    border-radius: 5px;
+    letter-spacing: 0.1em;
+    font-size: inherit !important;
+    font-weight: 200;
+}
 
 .top-section{
 	background-image: url('../man.jpg');
@@ -159,6 +134,17 @@ hr{
 	margin-top: 40px;
 }
 
+.top-section .btn-primary{
+	color: rgb(165, 113, 126);
+	background-color: white;
+}
+
+.top-section .btn-primary:hover{
+	background-color: rgb(195, 143, 156);
+	color: white;
+}
+
+
 
 .usp-section{
 	color: #FFF;
@@ -166,28 +152,13 @@ hr{
 }
 
 .features-section{
-	color: #4A4A4A;
+	color: #666;
 	padding-bottom: 60px;
 }
 
 .price-section{
 	color: #222;
 	background-color: rgb(205, 193, 191);
-}
-
-.psy-section{
-	color: #FFF;
-	background-color: rgb(135, 83, 96);
-}
-
-.fys-section{
-	color: #FFF;
-	background-color: rgb(165, 113, 126);
-}
-
-.man-section{
-	color: #FFF;
-	background-color: rgb(195, 143, 156);
 }
 
 
@@ -197,12 +168,12 @@ hr{
 }
 
 
-.developer-section .btn-primary{
+.btn-primary{
 	background-color: rgb(195, 143, 156);
 	color: white;
 }
 
-.developer-section .btn-primary:hover{
+.btn-primary:hover{
 	color: rgb(165, 113, 126);
 	background-color: white;
 }
@@ -224,18 +195,8 @@ a, button, a:focus, button:focus{
 	border: none !important;
 }
 
-.btn-primary{
-	color: #FFF;
-	background-color: rgb(118, 148, 159);
-}
-
-.btn-primary:hover{
-	color: #FFF;
-	background-color: rgb(108, 138, 169);
-}
-
-h3.punch{
-	line-height: 1.3em;
+h3.punch, p{
+	line-height: 1.6em;
 }
 
 .cta{
@@ -245,17 +206,12 @@ h3.punch{
 
 .cta .btn{
 	text-transform: uppercase;
-	font-size: 16px;
-}
-
-.cta .btn{
 	margin: 10px auto;
 }
 
 .cta .or{
 	margin-left: 10px;
 	margin-right: 10px;
-	font-size: 16px;
 }
 
 @media screen and (max-width: 768px) {
@@ -267,9 +223,9 @@ h3.punch{
 
 body{
 	text-rendering: optimizelegibility;
-	padding-top: 0;
+	padding-top: 3px;
 
-	color: #222;
+	color: #666;
 
 	font-family: benton-sans, 'Open Sans', 'Helvetica Neue', Helvetica !important;
 	font-style: normal;
@@ -322,6 +278,10 @@ a:hover{
 	background-color: transparent;
 }
 
+.jumbotron p{
+    font-size: 20px;
+}
+
 
 
 
@@ -331,9 +291,6 @@ p{
 	margin-right: auto;
 }
 
-h2{
-	margin-bottom: 40px;
-}
 
 h3{
 	max-width: 570px;
@@ -357,4 +314,17 @@ footer, .footer{
 
 .footer a{
 	margin-left: 10px;
+}
+
+
+.footer .btn-primary{
+	background-color: rgb(120, 107, 103);
+	color: white;
+    font-weight: 700;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.footer .btn-primary:hover{
+    background-color: white;
+    color: rgb(70, 57, 53);
 }
