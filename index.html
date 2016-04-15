@@ -10,7 +10,6 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/bootstrap/justified-nav.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/fade.css">
 		<link rel="stylesheet" href="css/menu.css">
 	</head>
 
@@ -48,7 +47,7 @@
 
 		<div class="jumbotron">
 			<h1>För vårdgivare och vårdtagare</h1>
-			<h3 class="punch">Allt som rör din verksamhet på ett ställe, med skräddarsydda funktioner för psykologer och manuell terapi</h3>
+			<h3 class="punch">Allt som rör verksamheten på ett ställe, med skräddarsydda funktioner för psykologer och manuell terapi</h3>
 
 			<div class="cta">
 				<a class="btn btn-primary" href="https://app.kaddio.com/signup">Skapa konto</a> <span class="or">eller</span> <a class="btn btn-primary" href="https://app.kaddio.com/demo">prova direkt</a>
@@ -64,37 +63,66 @@
 
 		<!-- Jumbotron -->
 		<div id="developer" class="jumbotron">
-            <h2>Kaddio - inte för alla</h2>
-            <h4>Vi är experter på våra områden, precis som du</h4>
-            
-			<div class="row">
-				<div class="col-sm-12 feature-col">
-				    <p>Kaddio passar både dig som har egen mottagning samt mindre verksamheter med flera discipliner under samma tak. Vi skräddarsyr kontinuerligt Kaddio för att passa psykologer, sjukgymnaster & manuella terapeuter.
-                    </p>
-				</div>
-
-				<div class="col-sm-12 feature-col">
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="org">
+                    <h2>Kaddio</h2>
+                    <h4>Allt som rör verksamheten på ett ställe</h4>
+                    
                     <div class="row">
-                        <div class="col-sm-4">
-                            <p class="center-block">
-                                <a class="btn btn-primary" href="#psy">Psykolog</a>
+                        <div class="col-sm-12">
+                            <p>Kaddio passar både dig som har egen mottagning samt mindre verksamheter med flera discipliner under samma tak. Vi skräddarsyr kontinuerligt Kaddio för att passa psykologer, sjukgymnaster & manuella terapeuter.
                             </p>
                         </div>
-                        
-                        <div class="col-sm-4">
-                            <p class="center-block">
-                                <a class="btn btn-primary" href="#fys">Sjukgymnast</a>
-                            </p>
-                        </div>
-                        
-                        <div class="col-sm-4">
-                            <p class="center-block">
-                                <a class="btn btn-primary" href="#man">Manuell terapeut</a>
-                            </p>
-                        </div>                            
                     </div>
-				</div>
+                </div>
 
+                <div role="tabpanel" class="tab-pane" id="psy">
+                    <h2>Kaddio</h2>
+                    <h4>för psykologer</h4>
+                    
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Kaddio passar både dig som har egen mottagning samt mindre verksamheter med flera discipliner under samma tak.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="man">
+                    <h2>Kaddio</h2>
+                    <h4>för manuella terapeuter</h4>
+                    
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Kaddio passar både dig som har egen klinik samt mindre verksamheter med flera discipliner under samma tak.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="fys">
+                    <h2>Kaddio</h2>
+                    <h4>för sjukgymnaster</h4>
+                    
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Kaddio passar både dig som har egen mottagning samt mindre verksamheter med flera discipliner under samma tak.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="row">
+				<div class="col-sm-12">
+                    <ul class="nav nav-pills" role="tablist">
+                        <li role="presentation" class="active"><a href="#org" aria-controls="org" role="tab" data-toggle="pill">Hela organisationen</a></li>
+                        <li role="presentation"><a href="#psy" aria-controls="psy" role="tab" data-toggle="pill">Psykolog</a></li>
+                        <li role="presentation"><a href="#fys" aria-controls="fys" role="tab" data-toggle="pill">Sjukgymnast</a></li>
+                        <li role="presentation"><a href="#man" aria-controls="man" role="tab" data-toggle="pill">Manuell terapeut</a></li>
+                    </ul>
+				</div>
 			</div>
 
 		</div>
@@ -207,58 +235,13 @@
 		<!-- Jumbotron -->
 		<div id="developer" class="jumbotron">
             <h2>Säkerhet <i class="fa fa-lock"></i></h2>
-
+            <h4>Vi tar säkerhet & integritet på allvar</h4>
 			<div class="row">
 				<div class="col-sm-12 feature-col">
-				    <p>All data krypteras med 256-bitar AES och TLS 1.2, vi utför regelbundna säkerhets- och stresstester för att hitta säkerhetsluckor och tar säkerhet, sekretess & integritet på största allvar.</p>
+				    <p>Vi utför regelbundna säkerhets- och stresstester för att hitta säkerhetsluckor. All data krypteras med 256-bitar AES och TLS 1.2.</p>
 				</div>
 			</div>
             
-		</div>
-	</div>
-
-
-	<div class="container-fluid section psy-section">
-		<!-- Jumbotron -->
-		<div id="psy" class="jumbotron">
-            <h2>Kaddio för psykologer</h2>
-
-			<div class="row">
-				<div class="col-sm-12 feature-col">
-				    <p>Kaddio startade som ett verktyg för psykologer (ePsy) med en vision om att minska den psykiska ohälsan i Sverige</p>
-
-                    <p>Kaddio passar både dig som har egen psykologmottagning samt mindre verksamheter där du som psykolog arbetar tillsammans med andra discipliner under samma tak.</p>
-				</div>
-			</div>
-            
-		</div>
-	</div>
-
-	<div class="container-fluid section fys-section">
-		<!-- Jumbotron -->
-		<div id="fys" class="jumbotron">
-            <h2>Kaddio för Sjukgymnaster</h2>
-
-			<div class="row">
-				<div class="col-sm-12 feature-col">
-				    <p>Kaddio för Sjukgymnaster</p>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<div class="container-fluid section man-section">
-		<!-- Jumbotron -->
-		<div id="man" class="jumbotron">
-            <h2>Kaddio för Manuella terapeuter</h2>
-
-			<div class="row">
-				<div class="col-sm-12 feature-col">
-				    <p>För Osteopater, Kiropraktorer och Naprapater</p>
-				</div>
-			</div>
-
 		</div>
 	</div>
 

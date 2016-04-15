@@ -168,14 +168,19 @@ hr{
 }
 
 
-.btn-primary{
-	background-color: rgb(195, 143, 156);
+.btn-primary, 
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:focus, 
+.nav-pills>li.active>a:hover{
+	background-color: rgb(123, 74, 88);
 	color: white;
 }
 
-.btn-primary:hover{
-	color: rgb(165, 113, 126);
-	background-color: white;
+.btn-primary:hover,
+.nav-pills>li>a:focus, 
+.nav-pills>li>a:hover{
+	color: white;
+	background-color: rgb(195, 143, 156);
 }
 
 
@@ -233,7 +238,6 @@ body{
 
 	border: 0 !important;
 }
-
 
 
 h1{
