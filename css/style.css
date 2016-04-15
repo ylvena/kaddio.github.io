@@ -326,9 +326,14 @@ footer, .footer{
 	background-color: rgb(70, 57, 53);
 }
 
+.footer .social-media{
+	color: rgb(118, 148, 159);
+}
+
 .footer a{
 	margin-left: 10px;
 }
+
 
 
 .footer .btn-primary{
