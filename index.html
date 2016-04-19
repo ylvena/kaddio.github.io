@@ -46,8 +46,8 @@
 
 
 		<div class="jumbotron">
-			<h1>För vårdgivare och vårdtagare</h1>
-			<h3 class="punch">Allt som rör verksamheten på webben, med skräddarsydda funktioner för psykologer och manuell terapi</h3>
+			<h1>Kaddio</h1>
+			<h3 class="punch">Hela verksamheten på webben, för psykologer, sjukgymnaster och manuella terapeuter. <br /><span data-toggle="tooltip" title="99kr per månad per behandlare inklusive moms. Fritt antal klienter">99kr/mån under 2016</span></h3>
 
 			<div class="cta">
 				<a class="btn btn-primary" href="https://app.kaddio.com/signup">Skapa konto</a> <span class="or">eller</span> <a class="btn btn-primary" href="https://app.kaddio.com/demo">prova direkt</a>
@@ -88,6 +88,7 @@
                     </ul>
 				</div>
 			</div>
+
             
             
             <div class="tab-content">
@@ -97,7 +98,7 @@
                     
                     <div class="row">
                         <div class="col-sm-12">
-                            <p>Kaddio passar både dig som har egen mottagning samt mindre multidisciplinära verksamheter. Vi skräddarsyr kontinuerligt Kaddio för att passa psykologer, sjukgymnaster & manuella terapeuter.
+                            <p>Kaddio är ett webbaserat administrativt verktyg som passar multidisciplinära verksamheter. Vi skräddarsyr kontinuerligt Kaddio för att passa psykologer, sjukgymnaster & manuella terapeuter.
                             </p>
                         </div>
                     </div>
@@ -294,8 +295,6 @@
 	</section>
 
 
-<hr>
-
 	<div class="container-fluid">
 		<!-- Jumbotron -->
 		<div id="developer" class="jumbotron">
@@ -328,21 +327,23 @@
 	</div>
 
 	  <!-- Site footer -->
-  <footer class="footer">
-  	<div class="container">
-		<p class="pull-left">
-            <a href="mailto:support@kaddio.com" class="btn btn-primary">Support</a>
-			<a href="http://eepurl.com/bCXgCv" class="btn btn-primary" target="_blank">Nyhetsbrev</a>
-		</p>
-        
-		<p class="pull-right">
-			<a href="http://twitter.com/kaddioapp" target="_blank" class="has-tooltip social-media" data-toggle="tooltip" data-placement="top" title="Tweeta med oss på Twitter"><i class="fa fa-twitter fa-2x"></i></a> 
-			<a href="http://www.facebook.com/kaddio" target="_blank" class="has-tooltip social-media" data-toggle="tooltip" data-placement="top" title="Prata med oss på Facebook"><i class="fa fa-facebook fa-2x"></i></a>
-			<a href="http://instagram.com/kaddioapp" target="_blank" class="has-tooltip social-media" data-toggle="tooltip" data-placement="top" title="Instagramma(?) med oss på Instagram"><i class="fa fa-instagram fa-2x"></i></a> 
-			<a href="http://www.linkedin.com/company/kaddio" target="_blank" class="has-tooltip social-media" data-toggle="tooltip" data-placement="top" title='"Connecta" med oss på Linkedin'><i class="fa fa-linkedin fa-2x"></i></a>
-		</p>
-	</div>
-  </footer>
+<footer class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 text-center">
+                <a href="mailto:support@kaddio.com" class="btn btn-primary">Support</a>
+                <a href="http://eepurl.com/bCXgCv" class="btn btn-primary" target="_blank">Nyhetsbrev</a>
+            </div>
+            
+            <div class="col-sm-6 text-center">
+                <a href="http://twitter.com/kaddioapp" target="_blank" class="has-tooltip social-media" data-toggle="tooltip" data-placement="top" title="Tweeta med oss på Twitter"><i class="fa fa-twitter fa-2x"></i></a> 
+                <a href="http://www.facebook.com/kaddio" target="_blank" class="has-tooltip social-media" data-toggle="tooltip" data-placement="top" title="Prata med oss på Facebook"><i class="fa fa-facebook fa-2x"></i></a>
+                <a href="http://instagram.com/kaddioapp" target="_blank" class="has-tooltip social-media" data-toggle="tooltip" data-placement="top" title="Instagramma(?) med oss på Instagram"><i class="fa fa-instagram fa-2x"></i></a> 
+                <a href="http://www.linkedin.com/company/kaddio" target="_blank" class="has-tooltip social-media" data-toggle="tooltip" data-placement="top" title='"Connecta" med oss på Linkedin'><i class="fa fa-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 	<script type="application/ld+json">
@@ -431,7 +432,14 @@
 	<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
-	<script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+	
+    <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
