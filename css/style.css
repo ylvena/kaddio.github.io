@@ -73,6 +73,13 @@ hr{
     padding-right: 10px;
 }
 
+@media screen and (max-width: 799px){
+    .feature .badge{
+        background-color: #DDD;
+    }
+}
+
+
 .feature{
 	text-align: left;
 	padding: 30px;
@@ -147,11 +154,6 @@ hr{
 	background-color: rgb(118, 148, 159);
 }
 
-.features-section{
-	color: #666;
-	padding-bottom: 60px;
-}
-
 .price-section{
 	color: #222;
 	background-color: rgb(205, 193, 191);
@@ -163,21 +165,31 @@ hr{
 	background-color: rgb(165, 113, 126);
 }
 
-.nav-pills{
+hr {
+    height: 1px;
+    margin: 2em 0;
+    border: 0;
+    width: 100%;
+    background: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.09) 10%, rgba(0, 0, 0, 0.09) 90%, transparent)
+}
+
+@media screen and (max-width: 800px){
+    .nav-tabs li a{
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+}
+
+.nav-tabs{
     margin-bottom: 1em;
 }
 
 .btn-primary, 
-.nav-pills>li.active>a, 
-.nav-pills>li.active>a:focus, 
-.nav-pills>li.active>a:hover{
-	background-color: rgb(123, 74, 88);
-	color: white;
-}
-
-.btn-primary:hover,
-.nav-pills>li>a:focus, 
-.nav-pills>li>a:hover{
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover,.btn-primary:hover,
+.nav-tabs>li>a:focus, 
+.nav-tabs>li>a:hover{
 	color: white;
 	background-color: rgb(195, 143, 156);
 }
