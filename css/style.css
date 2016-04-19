@@ -184,6 +184,18 @@ hr {
     margin-bottom: 1em;
 }
 
+.nav-tabs>li>a{
+    font-weight: 200;
+    font-size: 20px;    
+}
+
+@media screen and (max-width: 479px){
+    .nav-tabs>li>a{
+        font-weight: 800;
+        font-size: 14px;    
+    }
+}
+
 .btn-primary, 
 .nav-tabs>li.active>a, 
 .nav-tabs>li.active>a:focus, 
@@ -193,7 +205,6 @@ hr {
 	color: white;
 	background-color: rgb(195, 143, 156);
 }
-
 
 .contact-section{
 	color: rgb(123, 74, 88);
