@@ -7,8 +7,5 @@ date:   2016-04-20 13:57:19 +0200
 categories: kaddio
 ---
 
-Hejsan här är en testnyhet
+Hejsan här är en Guide om något itressant :)
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll.
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
