@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+
+	<section class="container-fluid">
+		<div id="features" class="jumbotron">
+			<h2>Guider</h2>
+			<h4>Lär dig mer om Kaddio och ännu mer</h4>
+
+
+			{% assign guides = site.guides | sort:"date" | reverse %}
+			{% for post in guides %}			
+				{% cycle 'add rows': '<div class="row">', nil, nil %}
+				
+				<div class="col-sm-4 feature-col">
+					<div class="feature">
+						<h3><i class="fa fa-{{post.icon}}"></i>&nbsp; {{post.title}}</h3>
+						
+						<p>{{post.teaser}}</p>
+						
+						<a href="{{ post.url | prepend: site.github.url }}" class="">Läs hela artikeln</a>
+					</div>
+				</div>
+
+				{% cycle 'close rows': nil, nil, '</div>' %}
+
+			{% endfor %}
+
+			{% cycle 'close rows': nil, '</div>', '</div>' %}
+
+		</div>
+
+	</section>
+
