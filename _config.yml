@@ -22,4 +22,5 @@ instagram_username: kaddioapp
 markdown: kramdown
 
 collections:
-- guides
+ guides:
+  output: true
